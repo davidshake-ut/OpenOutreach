@@ -22,11 +22,14 @@ _cache_attempted = False
 # Kit download & loading
 # ------------------------------------------------------------------
 
-_DEFAULT_REPO_ID = "eracle/campaign-kit"
+_DEFAULT_REPO_ID = None  # Partner campaigns disabled (was: "eracle/campaign-kit")
 
 
 def download_kit(revision: str = "v1") -> Optional[Path]:
     """Download campaign kit from HuggingFace Hub. Returns path or None."""
+    if _DEFAULT_REPO_ID is None:
+        return None
+
     try:
         import huggingface_hub
         from huggingface_hub import snapshot_download

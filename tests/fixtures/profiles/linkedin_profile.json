@@ -1003,11 +1003,11 @@
         "com.linkedin.voyager.dash.deco.relationships.ProfileWithIweWarned"
       ],
       "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
-      "firstName": "Antonio Ercole",
+      "firstName": "Test",
       "entityUrn": "urn:li:fsd_profile:ACoAAAQkmQMB7KelWP9pTFKgF78_1qU5WnxvfC8",
       "tempStatus": null,
       "headline": "Sr. Software Engineer | Seeking Part-Time Remote | Data & Backend | Python • GCP • Docker",
-      "publicIdentifier": "eracle"
+      "publicIdentifier": "test-user-profile"
     },
     {
       "$anti_abuse_metadata": {

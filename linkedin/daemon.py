@@ -18,23 +18,14 @@ from linkedin.ml.qualifier import BayesianQualifier
 logger = logging.getLogger(__name__)
 
 class _PromoRotator:
-    """Logs rotating promotional messages every *every* lane executions."""
-
-    _MESSAGES = [
-        colored("Join the community or give direct feedback on Telegram \u2192 https://t.me/+Y5bh9Vg8UVg5ODU0", "blue", attrs=["bold"]),
-        "\033[38;5;208;1mLove OpenOutreach? Sponsor the project \u2192 https://github.com/sponsors/eracle\033[0m",
-    ]
+    """Placeholder for promotional messages (disabled)."""
 
     def __init__(self, every: int = 10):
         self._every = every
         self._ticks = 0
-        self._next = 0
 
     def tick(self):
         self._ticks += 1
-        if self._ticks % self._every == 0:
-            logger.info(self._MESSAGES[self._next % len(self._MESSAGES)])
-            self._next += 1
 
 
 

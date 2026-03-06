@@ -207,46 +207,6 @@ Configure rate limits and behavior via Django Admin (LinkedInProfile + Campaign 
 
 ---
 
-## 💬 Community
-
-Join for support and discussions:
-[Telegram Group](https://t.me/+Y5bh9Vg8UVg5ODU0)
-
----
-
-### 🗓️ Book a Free 15-Minute Call
-
-Got a specific use case, feature request, or questions about setup?
-
-Book a **free 15-minute call** — I'd love to hear your needs and improve the tool based on real feedback.
-
-<div align="center">
-
-[![Book a 15-min call](https://img.shields.io/badge/Book%20a%2015--min%20call-28A745?style=for-the-badge&logo=calendar)](https://calendly.com/eracle/new-meeting)
-
-</div>
-
----
-
-### ❤️ Support OpenOutreach
-
-This project is built in spare time to provide powerful, **free** open-source growth tools. Your sponsorship funds faster updates and keeps it free for everyone.
-
-<div align="center">
-
-[![Sponsor with GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/eracle)
-
-<br/>
-
-| Tier        | Monthly | Benefits                                                              |
-|-------------|---------|-----------------------------------------------------------------------|
-| ☕ Supporter | $5      | Huge thanks + name in README supporters list                          |
-| 🚀 Booster  | $25     | All above + priority feature requests + early access to new campaigns |
-| 🦸 Hero     | $100    | All above + personal 1-on-1 support + influence roadmap               |
-| 💎 Legend   | $500+   | All above + custom feature development + shoutout in releases         |
-
-</div>
-
 ---
 
 ## ⚖️ License
